@@ -38,11 +38,9 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              <strong>{author}</strong>의 블로그입니다.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+              트위터 계정:<a href={`https://twitter.com/${social.twitter}`}>
               </a>
             </p>
           </div>
