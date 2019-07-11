@@ -40,8 +40,6 @@ function Bio() {
             <p>
               <strong>{author}</strong>의 블로그입니다.
               {` `}
-              트위터 계정:<a href={`https://twitter.com/${social.twitter}`}>
-              </a>
             </p>
           </div>
         )
